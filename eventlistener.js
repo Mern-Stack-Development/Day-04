@@ -13,17 +13,18 @@ var listener2 = (msg) => {
 };
 
 //register the listeners to the event
-eventEmitter.on('myEvent', listener1);
-eventEmitter.on('myEvent', listener1);
-eventEmitter.on('myEvent', listener2);
+eventEmitter.on('myEvent1', listener1);
+eventEmitter.on('myEvent2', listener1);
+eventEmitter.on('myEvent2', listener2);
 
 //Remove only one event listener
 // eventEmitter.removeListener('myEvent', listener1);
 
 // Fire the 'myEvent' event
-eventEmitter.emit('myEvent', "Event occurred now");
+eventEmitter.emit('myEvent1', "Event 1 occurred now");
+eventEmitter.emit('myEvent2', "Event 2 occurred now");
 
 //Removing all listeners
-eventEmitter.removeAllListeners('myEvent');
+// eventEmitter.removeAllListeners('myEvent');
 
-eventEmitter.emit('myEvent', "Event occurred");
+// eventEmitter.emit('myEvent', "Event occurred");

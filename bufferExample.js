@@ -13,7 +13,7 @@ fs.readFile('input.txt', 'utf-8', (err, data) => {
   bufferSrc.copy(bufferDest);
 
   // Modify the content (convert to uppercase)
-  const modifiedContent = bufferDest.toString('utf-8');
+  const modifiedContent = bufferDest.toString('utf-8').toUpperCase();
 
   // Write the modified content to a new file
   fs.writeFile('output.txt', modifiedContent, (writeErr) => {

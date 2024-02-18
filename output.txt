@@ -1,8 +1,8 @@
-Apple
-Apricot
-Avocado
-Banana
-Bilberry
-Blackberry
-Blackcurrant
-Blueberry
+APPLE
+APRICOT
+AVOCADO
+BANANA
+BILBERRY
+BLACKBERRY
+BLACKCURRANT
+BLUEBERRY

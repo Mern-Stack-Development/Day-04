@@ -2,7 +2,7 @@ var fs = require("fs");
 var data = "Simply Easy Learning";
 
 // Create a writable stream
-var writerStream = fs.createWriteStream('output.txt');
+var writerStream = fs.createWriteStream('writestream.txt');
 
 // Write the data to stream with encoding to be utf8
 writerStream.write(data, "UTF8");
