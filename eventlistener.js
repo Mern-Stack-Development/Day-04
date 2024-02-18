@@ -18,10 +18,10 @@ eventEmitter.on('myEvent', listener1);
 eventEmitter.on('myEvent', listener2);
 
 //Remove only one event listener
-eventEmitter.removeListener('myEvent', listener1);
+// eventEmitter.removeListener('myEvent', listener1);
 
 // Fire the 'myEvent' event
-eventEmitter.emit('myEvent', "Event occurred");
+eventEmitter.emit('myEvent', "Event occurred now");
 
 //Removing all listeners
 eventEmitter.removeAllListeners('myEvent');

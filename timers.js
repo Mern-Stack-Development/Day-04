@@ -2,10 +2,11 @@ console.log('Start');
 
 setTimeout(function() {
     console.log('Timeout Callback');
-}, 2000);
+    process.exit();
+}, 5000);
 
 setInterval(() => {
     console.log('Interval Callback');
-}, 100);
+}, 1000);
 
 console.log('End');
