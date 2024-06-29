@@ -5,6 +5,8 @@ function showGlobalScope() {
 }
 
 function modifyGlobalScope() {
+    let localVariable = "I'm a local variable";
+    console.log(localVariable);
     globalVariable = "I've been modified!";
     console.log(globalVariable); // Outputs: I've been modified!
 }
@@ -12,3 +14,4 @@ function modifyGlobalScope() {
 showGlobalScope();
 modifyGlobalScope();
 console.log(globalVariable); // Outputs: I've been modified!
+//  console.log(localVariable);
