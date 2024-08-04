@@ -5,4 +5,4 @@ fs.readFile('input.txt', function(err, data){
     console.log(data.toString());
 });
 
-console.log("Program is Executing!");
+console.log("Program Ended!");

@@ -4,6 +4,7 @@ function showLocalScope() {
 }
 
 showLocalScope();
+
 // console.log(localVariable);  
 // Uncommenting this will throw an error because 
 // localVariable is not accessible outside the function.
